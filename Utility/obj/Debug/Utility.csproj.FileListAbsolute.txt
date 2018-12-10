@@ -1,0 +1,6 @@
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Utility\bin\Debug\Utility.dll
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Utility\bin\Debug\Utility.pdb
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Utility\obj\Debug\Utility.dll
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Utility\obj\Debug\Utility.pdb
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Utility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache

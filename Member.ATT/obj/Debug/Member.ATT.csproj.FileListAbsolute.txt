@@ -1,0 +1,4 @@
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.ATT\bin\Debug\Member.ATT.dll
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.ATT\bin\Debug\Member.ATT.pdb
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.ATT\obj\Debug\Member.ATT.dll
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.ATT\obj\Debug\Member.ATT.pdb

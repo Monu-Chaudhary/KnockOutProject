@@ -1,0 +1,553 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EAD7599D-88C0-4F65-878A-BB40E24B796E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KnockOut</RootNamespace>
+    <AssemblyName>KnockOut</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="EmployeeRegistration.aspx" />
+    <Content Include="EmpReg.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="JsLibrary\BeatPicker.min.js" />
+    <Content Include="JsLibrary\bootstrap.js" />
+    <Content Include="JsLibrary\bootstrap.min.js" />
+    <Content Include="JsLibrary\Choosen\986763442.js" />
+    <Content Include="JsLibrary\Choosen\chosen-sprite%402x.png" />
+    <Content Include="JsLibrary\Choosen\chosen-sprite.png" />
+    <Content Include="JsLibrary\Choosen\chosen.css" />
+    <Content Include="JsLibrary\Choosen\chosen.jquery.js" />
+    <Content Include="JsLibrary\Choosen\chosen.jquery.min.js" />
+    <Content Include="JsLibrary\Choosen\chosen.min.css" />
+    <Content Include="JsLibrary\Choosen\chosen.proto.js" />
+    <Content Include="JsLibrary\Choosen\chosen.proto.min.js" />
+    <Content Include="JsLibrary\Choosen\docsupport\chosen.png" />
+    <Content Include="JsLibrary\Choosen\docsupport\oss-credit.png" />
+    <Content Include="JsLibrary\Choosen\docsupport\prism.css" />
+    <Content Include="JsLibrary\Choosen\docsupport\prism.js" />
+    <Content Include="JsLibrary\Choosen\docsupport\style.css" />
+    <Content Include="JsLibrary\Choosen\index.html" />
+    <Content Include="JsLibrary\Choosen\index.proto.html" />
+    <Content Include="JsLibrary\Choosen\options.html" />
+    <Content Include="JsLibrary\chosen.jquery.min.js" />
+    <Content Include="JsLibrary\chosen.proto.min.js" />
+    <Content Include="JsLibrary\Common.js" />
+    <Content Include="JsLibrary\CustomAlert.js" />
+    <Content Include="JsLibrary\datepicker.js" />
+    <Content Include="JsLibrary\DateValidation.js" />
+    <Content Include="JsLibrary\eye.js" />
+    <Content Include="JsLibrary\jquery-1.10.2.js" />
+    <Content Include="JsLibrary\jquery-1.11.1.min.js" />
+    <Content Include="JsLibrary\jquery-1.11.3.min.js" />
+    <Content Include="JsLibrary\jquery-2.1.3.js" />
+    <Content Include="JsLibrary\jquery-ui.js" />
+    <Content Include="JsLibrary\jquery-ui.min.js" />
+    <Content Include="JsLibrary\jquery.dataTables.min.js" />
+    <Content Include="JsLibrary\jquery.dropdownPlain.js" />
+    <Content Include="JsLibrary\jquery.pickmeup.js" />
+    <Content Include="JsLibrary\jquery.smartmenus.js" />
+    <Content Include="JsLibrary\jquery.validate.min.js" />
+    <Content Include="JsLibrary\jqueryAlerts.js" />
+    <Content Include="JsLibrary\jquery_menus.js" />
+    <Content Include="JsLibrary\knockout-3.1.0.js" />
+    <Content Include="JsLibrary\knockout.ajaxGrid.js" />
+    <Content Include="JsLibrary\knockout.validation.js" />
+    <Content Include="JsLibrary\layout.js" />
+    <Content Include="JsLibrary\moment.js" />
+    <Content Include="JsLibrary\smartpaginator.js" />
+    <Content Include="JsLibrary\SOSYS.Common.js" />
+    <Content Include="JsLibrary\tab.js" />
+    <Content Include="JsLibrary\utils.js" />
+    <Content Include="JsLibrary\validation.js" />
+    <Content Include="JsLibrary\ValidationBinders.js" />
+    <Content Include="Scripts\Member\User.js" />
+    <Content Include="Styles\BeatPicker.min.css" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\CustomStyle.css" />
+    <Content Include="Styles\datatables.min.css" />
+    <Content Include="Styles\datepicker.css" />
+    <Content Include="Styles\Icon.css" />
+    <Content Include="Styles\Images\-header-bg.png" />
+    <Content Include="Styles\Images\3d bar chart.png" />
+    <Content Include="Styles\Images\Abort.png" />
+    <Content Include="Styles\Images\About.png" />
+    <Content Include="Styles\Images\Accounting.png" />
+    <Content Include="Styles\Images\Address book.png" />
+    <Content Include="Styles\Images\Alarm clock.png" />
+    <Content Include="Styles\Images\Alarm.png" />
+    <Content Include="Styles\Images\Alert.png" />
+    <Content Include="Styles\Images\Alien.png" />
+    <Content Include="Styles\Images\Anchor.png" />
+    <Content Include="Styles\Images\Application.png" />
+    <Content Include="Styles\Images\Apply.png" />
+    <Content Include="Styles\Images\Back.png" />
+    <Content Include="Styles\Images\Bad mark.png" />
+    <Content Include="Styles\Images\Bee.png" />
+    <Content Include="Styles\Images\Black bookmark.png" />
+    <Content Include="Styles\Images\Black pin.png" />
+    <Content Include="Styles\Images\Black tag.png" />
+    <Content Include="Styles\Images\Blog.png" />
+    <Content Include="Styles\Images\Blue bookmark.png" />
+    <Content Include="Styles\Images\Blue key.png" />
+    <Content Include="Styles\Images\Blue pin.png" />
+    <Content Include="Styles\Images\Blue tag.png" />
+    <Content Include="Styles\Images\Bomb.png" />
+    <Content Include="Styles\Images\Bookmark.png" />
+    <Content Include="Styles\Images\Boss.png" />
+    <Content Include="Styles\Images\Bottom.png" />
+    <Content Include="Styles\Images\Briefcase.png" />
+    <Content Include="Styles\Images\Brush.png" />
+    <Content Include="Styles\Images\Bubble.png" />
+    <Content Include="Styles\Images\Buy.png" />
+    <Content Include="Styles\Images\Calculator.png" />
+    <Content Include="Styles\Images\Calendar.png" />
+    <Content Include="Styles\Images\Cancel.png" />
+    <Content Include="Styles\Images\Car key.png" />
+    <Content Include="Styles\Images\CD.png" />
+    <Content Include="Styles\Images\Clipboard.png" />
+    <Content Include="Styles\Images\Clock.png" />
+    <Content Include="Styles\Images\closebox.png" />
+    <Content Include="Styles\Images\Comment.png" />
+    <Content Include="Styles\Images\Company.png" />
+    <Content Include="Styles\Images\Compass.png" />
+    <Content Include="Styles\Images\Component.png" />
+    <Content Include="Styles\Images\Computer 16x16.png" />
+    <Content Include="Styles\Images\ContactInfo.gif" />
+    <Content Include="Styles\Images\ContactPerson.gif" />
+    <Content Include="Styles\Images\Copy.png" />
+    <Content Include="Styles\Images\Create.png" />
+    <Content Include="Styles\Images\custom_b.png" />
+    <Content Include="Styles\Images\custom_bl.png" />
+    <Content Include="Styles\Images\custom_br.png" />
+    <Content Include="Styles\Images\custom_l.png" />
+    <Content Include="Styles\Images\custom_r.png" />
+    <Content Include="Styles\Images\custom_t.png" />
+    <Content Include="Styles\Images\custom_tl.png" />
+    <Content Include="Styles\Images\custom_tr.png" />
+    <Content Include="Styles\Images\Cut.png" />
+    <Content Include="Styles\Images\Danger.png" />
+    <Content Include="Styles\Images\Database.png" />
+    <Content Include="Styles\Images\datepicker_b.png" />
+    <Content Include="Styles\Images\datepicker_bl.png" />
+    <Content Include="Styles\Images\datepicker_br.png" />
+    <Content Include="Styles\Images\datepicker_l.png" />
+    <Content Include="Styles\Images\datepicker_r.png" />
+    <Content Include="Styles\Images\datepicker_t.png" />
+    <Content Include="Styles\Images\datepicker_tl.png" />
+    <Content Include="Styles\Images\datepicker_tr.png" />
+    <Content Include="Styles\Images\Delete.gif" />
+    <Content Include="Styles\Images\Delete.png" />
+    <Content Include="Styles\Images\Delivery.png" />
+    <Content Include="Styles\Images\Diagram.png" />
+    <Content Include="Styles\Images\Dial.png" />
+    <Content Include="Styles\Images\Disaster.png" />
+    <Content Include="Styles\Images\Display 16x16.png" />
+    <Content Include="Styles\Images\Dollar.png" />
+    <Content Include="Styles\Images\Down.png" />
+    <Content Include="Styles\Images\Download.png" />
+    <Content Include="Styles\Images\Downloads folder.png" />
+    <Content Include="Styles\Images\E-mail.png" />
+    <Content Include="Styles\Images\Earth.png" />
+    <Content Include="Styles\Images\Eject.png" />
+    <Content Include="Styles\Images\Equipment.png" />
+    <Content Include="Styles\Images\Erase.png" />
+    <Content Include="Styles\Images\Error.png" />
+    <Content Include="Styles\Images\Euro.png" />
+    <Content Include="Styles\Images\Exit.png" />
+    <Content Include="Styles\Images\Expand.png" />
+    <Content Include="Styles\Images\Eye.png" />
+    <Content Include="Styles\Images\Fall.png" />
+    <Content Include="Styles\Images\Fast-forward.png" />
+    <Content Include="Styles\Images\Favourites.png" />
+    <Content Include="Styles\Images\Female symbol.png" />
+    <Content Include="Styles\Images\Female.png" />
+    <Content Include="Styles\Images\field.png" />
+    <Content Include="Styles\Images\Film.png" />
+    <Content Include="Styles\Images\Filter.png" />
+    <Content Include="Styles\Images\Find.png" />
+    <Content Include="Styles\Images\First record.png" />
+    <Content Include="Styles\Images\First.png" />
+    <Content Include="Styles\Images\Flag.png" />
+    <Content Include="Styles\Images\Flash drive.png" />
+    <Content Include="Styles\Images\Folder.png" />
+    <Content Include="Styles\Images\Forbidden.png" />
+    <Content Include="Styles\Images\Forward.png" />
+    <Content Include="Styles\Images\Free bsd.png" />
+    <Content Include="Styles\Images\Gift.png" />
+    <Content Include="Styles\Images\Globe.png" />
+    <Content Include="Styles\Images\Go back.png" />
+    <Content Include="Styles\Images\Go forward.png" />
+    <Content Include="Styles\Images\Go.png" />
+    <Content Include="Styles\Images\Good mark.png" />
+    <Content Include="Styles\Images\Green bookmark.png" />
+    <Content Include="Styles\Images\Green pin.png" />
+    <Content Include="Styles\Images\Green tag.png" />
+    <Content Include="Styles\Images\Hard disk.png" />
+    <Content Include="Styles\Images\Heart.png" />
+    <Content Include="Styles\Images\Help book 3d.png" />
+    <Content Include="Styles\Images\Help book.png" />
+    <Content Include="Styles\Images\Help symbol.png" />
+    <Content Include="Styles\Images\Help.png" />
+    <Content Include="Styles\Images\Hint.png" />
+    <Content Include="Styles\Images\History.png" />
+    <Content Include="Styles\Images\Home.png" />
+    <Content Include="Styles\Images\Hourglass.png" />
+    <Content Include="Styles\Images\How-to.png" />
+    <Content Include="Styles\Images\Hungup.png" />
+    <Content Include="Styles\Images\icon-error.gif" />
+    <Content Include="Styles\Images\icon-info.gif" />
+    <Content Include="Styles\Images\icon-question.gif" />
+    <Content Include="Styles\Images\icon-warning.gif" />
+    <Content Include="Styles\Images\important.gif" />
+    <Content Include="Styles\Images\In-yang.png" />
+    <Content Include="Styles\Images\info.gif" />
+    <Content Include="Styles\Images\Info.png" />
+    <Content Include="Styles\Images\Iphone.png" />
+    <Content Include="Styles\Images\Key.png" />
+    <Content Include="Styles\Images\Last recor.png" />
+    <Content Include="Styles\Images\Last.png" />
+    <Content Include="Styles\Images\Left-right.png" />
+    <Content Include="Styles\Images\Lightning.png" />
+    <Content Include="Styles\Images\Liner.png" />
+    <Content Include="Styles\Images\Linux.png" />
+    <Content Include="Styles\Images\List.png" />
+    <Content Include="Styles\Images\Load.png" />
+    <Content Include="Styles\Images\loading.gif" />
+    <Content Include="Styles\Images\Lock.png" />
+    <Content Include="Styles\Images\logo.jpg" />
+    <Content Include="Styles\Images\logo.png" />
+    <Content Include="Styles\Images\logout.png" />
+    <Content Include="Styles\Images\Low rating.png" />
+    <Content Include="Styles\Images\Magic wand.png" />
+    <Content Include="Styles\Images\Mail.png" />
+    <Content Include="Styles\Images\Male symbol.png" />
+    <Content Include="Styles\Images\Male.png" />
+    <Content Include="Styles\Images\Medium rating.png" />
+    <Content Include="Styles\Images\Message.png" />
+    <Content Include="Styles\Images\Mobile-phone.png" />
+    <Content Include="Styles\Images\Modify.png" />
+    <Content Include="Styles\Images\Move.png" />
+    <Content Include="Styles\Images\MoveRight.png" />
+    <Content Include="Styles\Images\Movie.png" />
+    <Content Include="Styles\Images\Music.png" />
+    <Content Include="Styles\Images\Mute.png" />
+    <Content Include="Styles\Images\Network connection.png" />
+    <Content Include="Styles\Images\New document.png" />
+    <Content Include="Styles\Images\New.png" />
+    <Content Include="Styles\Images\Next track.png" />
+    <Content Include="Styles\Images\Next.png" />
+    <Content Include="Styles\Images\No-entry.png" />
+    <Content Include="Styles\Images\No.png" />
+    <Content Include="Styles\Images\Notes.png" />
+    <Content Include="Styles\Images\OK.png" />
+    <Content Include="Styles\Images\Paste.png" />
+    <Content Include="Styles\Images\Pause.png" />
+    <Content Include="Styles\Images\PCS_Logo.png" />
+    <Content Include="Styles\Images\pdf.png" />
+    <Content Include="Styles\Images\pencil.png" />
+    <Content Include="Styles\Images\People.png" />
+    <Content Include="Styles\Images\Percent.png" />
+    <Content Include="Styles\Images\Person.png" />
+    <Content Include="Styles\Images\Phone number.png" />
+    <Content Include="Styles\Images\Phone.png" />
+    <Content Include="Styles\Images\Pie chart.png" />
+    <Content Include="Styles\Images\Pinion.png" />
+    <Content Include="Styles\Images\Play-music.png" />
+    <Content Include="Styles\Images\Play.png" />
+    <Content Include="Styles\Images\Playback.png" />
+    <Content Include="Styles\Images\Previous record.png" />
+    <Content Include="Styles\Images\Previous.png" />
+    <Content Include="Styles\Images\Print.png" />
+    <Content Include="Styles\Images\Problem.png" />
+    <Content Include="Styles\Images\Question.png" />
+    <Content Include="Styles\Images\Radiation.png" />
+    <Content Include="Styles\Images\Raise.png" />
+    <Content Include="Styles\Images\Record.png" />
+    <Content Include="Styles\Images\Red bookmark.png" />
+    <Content Include="Styles\Images\Red mark.png" />
+    <Content Include="Styles\Images\Red pin.png" />
+    <Content Include="Styles\Images\Red star.png" />
+    <Content Include="Styles\Images\Red tag.png" />
+    <Content Include="Styles\Images\Redo.png" />
+    <Content Include="Styles\Images\Refresh.png" />
+    <Content Include="Styles\Images\Remove.png" />
+    <Content Include="Styles\Images\Repair.png" />
+    <Content Include="Styles\Images\Report.png" />
+    <Content Include="Styles\Images\reset.gif" />
+    <Content Include="Styles\Images\Retort.png" />
+    <Content Include="Styles\Images\Rewind.png" />
+    <Content Include="Styles\Images\Sad.png" />
+    <Content Include="Styles\Images\Save.png" />
+    <Content Include="Styles\Images\Schedule.png" />
+    <Content Include="Styles\Images\Script.png" />
+    <Content Include="Styles\Images\Search.png" />
+    <Content Include="Styles\Images\searchImg.png" />
+    <Content Include="Styles\Images\select.png" />
+    <Content Include="Styles\Images\Shield 16x16.png" />
+    <Content Include="Styles\Images\Shopping cart.png" />
+    <Content Include="Styles\Images\Silence.png" />
+    <Content Include="Styles\Images\Smile.png" />
+    <Content Include="Styles\Images\sort_desc.gif" />
+    <Content Include="Styles\Images\Sound.png" />
+    <Content Include="Styles\Images\Stop sign.png" />
+    <Content Include="Styles\Images\Stop.png" />
+    <Content Include="Styles\Images\Stopwatch.png" />
+    <Content Include="Styles\Images\Sum.png" />
+    <Content Include="Styles\Images\Sync.png" />
+    <Content Include="Styles\Images\Table.png" />
+    <Content Include="Styles\Images\Target.png" />
+    <Content Include="Styles\Images\Taxi.png" />
+    <Content Include="Styles\Images\Terminate.png" />
+    <Content Include="Styles\Images\Text preview.png" />
+    <Content Include="Styles\Images\Text.png" />
+    <Content Include="Styles\Images\Thumbs down.png" />
+    <Content Include="Styles\Images\Thumbs up.png" />
+    <Content Include="Styles\Images\title.gif" />
+    <Content Include="Styles\Images\Toolbox.png" />
+    <Content Include="Styles\Images\Top.png" />
+    <Content Include="Styles\Images\Trackback.png" />
+    <Content Include="Styles\Images\Trash.png" />
+    <Content Include="Styles\Images\treeview-default-line.gif" />
+    <Content Include="Styles\Images\Tune.png" />
+    <Content Include="Styles\Images\Turn off.png" />
+    <Content Include="Styles\Images\Twitter.png" />
+    <Content Include="Styles\Images\Undo.png" />
+    <Content Include="Styles\Images\Unlock.png" />
+    <Content Include="Styles\Images\Up-down.png" />
+    <Content Include="Styles\Images\Up.png" />
+    <Content Include="Styles\Images\Update.png" />
+    <Content Include="Styles\Images\Upload.png" />
+    <Content Include="Styles\Images\User group.png" />
+    <Content Include="Styles\Images\View.png" />
+    <Content Include="Styles\Images\Volume.png" />
+    <Content Include="Styles\Images\Wallet.png" />
+    <Content Include="Styles\Images\Warning.png" />
+    <Content Include="Styles\Images\working.gif" />
+    <Content Include="Styles\Images\Wrench.png" />
+    <Content Include="Styles\Images\Yellow bookmark.png" />
+    <Content Include="Styles\Images\Yellow pin.png" />
+    <Content Include="Styles\Images\Yellow tag.png" />
+    <Content Include="Styles\Images\Yes.png" />
+    <Content Include="Styles\Images\Zoom.png" />
+    <Content Include="Styles\jquery-ui.css" />
+    <Content Include="Styles\jqueryAlerts.css" />
+    <Content Include="Styles\jqx.base.css" />
+    <Content Include="Styles\layout.css" />
+    <Content Include="Styles\MainMaster.css" />
+    <Content Include="Styles\sample.css" />
+    <Content Include="Styles\searchstyle.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\sm-core-css.css" />
+    <Content Include="Styles\sm-mint.css" />
+    <Content Include="Styles\sm-simple.css" />
+    <Content Include="Styles\smartpaginator.css" />
+    <Content Include="Styles\Style.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeRegistration.aspx.cs">
+      <DependentUpon>EmployeeRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmployeeRegistration.aspx.designer.cs">
+      <DependentUpon>EmployeeRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EmpReg.aspx.cs">
+      <DependentUpon>EmpReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EmpReg.aspx.designer.cs">
+      <DependentUpon>EmpReg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Employee\EmployeeHandler.ashx.cs">
+      <DependentUpon>EmployeeHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="PCS.Master.cs">
+      <DependentUpon>PCS.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PCS.Master.designer.cs">
+      <DependentUpon>PCS.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Handlers\Employee\EmployeeHandler.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Member.ATT\Member.ATT.csproj">
+      <Project>{D90E4A8B-ADE1-4D7B-B348-4DA035B13496}</Project>
+      <Name>Member.ATT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Member.BLL\Member.BLL.csproj">
+      <Project>{24BAD7C8-DE95-4A69-9B62-62FF2F251691}</Project>
+      <Name>Member.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Member.DLL\Member.DLL.csproj">
+      <Project>{92FCBF02-7440-4B3E-B10E-A58D6CC615D6}</Project>
+      <Name>Member.DLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{298D6117-4FA9-4515-A220-D404AE6E3CB9}</Project>
+      <Name>Utility %28Utility\Utility%29</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PCS.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>41374</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

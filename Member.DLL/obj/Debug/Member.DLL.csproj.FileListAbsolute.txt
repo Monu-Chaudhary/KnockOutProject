@@ -1,0 +1,10 @@
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.DLL\bin\Debug\Member.DLL.dll
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.DLL\bin\Debug\Member.DLL.pdb
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.DLL\obj\Debug\Member.DLL.dll
+c:\users\monu\documents\visual studio 2010\Projects\KnockOut\Member.DLL\obj\Debug\Member.DLL.pdb
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Member.DLL\bin\Debug\Member.ATT.dll
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Member.DLL\bin\Debug\Utility.dll
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Member.DLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Member.DLL\bin\Debug\Member.ATT.pdb
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Member.DLL\bin\Debug\Utility.pdb
+C:\Users\Monu\Documents\Visual Studio 2010\Projects\KnockOut\Member.DLL\obj\Debug\Member.DLL.csprojResolveAssemblyReference.cache
